@@ -1,0 +1,62 @@
+{
+  "name": "biojs-vis-momig-circos",
+  "description": "Circos plot for genomics based on MoMIG toolkit",
+  "version": "0.1.0",
+  "homepage": "https://github.com/6br/biojs-vis-momig-circos",
+  "author": {
+    "name": "6br",
+    "email": ""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/6br/biojs-vis-momig-circos.git"
+  },
+  "bugs": {
+    "url": "https://github.com/6br/biojs-vis-momig-circos/issues"
+  },
+  "license": "MIT",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo 'Error: no test specified' && exit 1",
+    "build": "mkdirp build && browserify -p [ tsify ] -r ./:biojs-vis-momig-circos -o build/circos.js",
+    "build-browser": "npm run build",
+    "prepublish": "npm run build",
+    "watch": "watchify -p [ tsify ] -r ./:biojs-vis-momig-circos -v -o build/circos.js",
+    "w": "prunner \"npm run sniper\" \"npm run watch\"",
+    "sniper": "sniper ."
+  },
+  "dependencies": {
+    "@types/d3": "^5.0.1",
+    "@types/mathjs": "^4.4.3",
+    "@types/react": "^16.7.7",
+    "@types/react-dom": "^16.0.11",
+    "@types/react-select": "^2.0.8",
+    "d3": "^5.7.0",
+    "react": "^16.6.3",
+    "react-dom": "^16.6.3",
+    "react-select": "^2.1.2"
+  },
+  "devDependencies": {
+    "browserify": "6.x",
+    "mkdirp": "^0.5.0",
+    "prunner": "1.x",
+    "sniper": "0.x",
+    "tsify": "^4.0.1",
+    "typescript": "^3.1.6",
+    "watchify": "^1.0.6"
+  },
+  "sniper": {
+    "js": [
+      "/build/circos.js"
+    ],
+    "snippets": [
+      "examples"
+    ],
+    "first": "simple"
+  },
+  "keywords": [
+    "circos",
+    "visualize",
+    "biojs"
+  ]
+}

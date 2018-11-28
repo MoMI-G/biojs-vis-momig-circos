@@ -1,0 +1,21 @@
+{
+    "featureThreshold": [0, 100],
+    "featureSelection": [true, true],
+    "closeModal": null,
+    "width": 400,
+    "reference": "hg19",
+    "features": [{"priority": 256,
+        "source_breakpoint": 162794352,
+        "source_id":
+        "chr3",
+        "source_strand":
+        "+",
+        "svtype":
+        "DEL",
+        "target_breakpoint":
+        162908541,
+        "target_id":
+        "chr14",
+        "target_strand":
+        "+"}]
+}
