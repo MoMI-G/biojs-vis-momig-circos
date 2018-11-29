@@ -46,7 +46,7 @@
     "typescript": "^3.1.6",
     "watchify": "^1.0.6"
   },
-  "style" : "lib/viz/*.css",
+  "style": "lib/viz/*.css",
   "sniper": {
     "js": [
       "/build/circos.js"

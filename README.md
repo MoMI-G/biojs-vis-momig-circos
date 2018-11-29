@@ -4,6 +4,8 @@
 
 > Circos plot with rotating for genomics based on MoMIG toolkit
 
+<img src="./momig-circos.gif" />
+
 ## Getting Started
 
 Install the module with: `npm install biojs-vis-momig-circos`
