@@ -10,7 +10,7 @@ Install the module with: `npm install biojs-vis-momig-circos`
 
 ```javascript
 var circos = require('biojs-vis-momig-circos');
-var instance = new circos({el: rootDiv});
+var instance = new circos({el: rootDiv, config: "fixture"});
 ```
 
 ## Usage
@@ -28,6 +28,10 @@ If you have any problem or suggestion please open an issue [here](https://github
 ## Citation
 
 This module is part of [MoMIG](https://github.com/MoMI-G/MoMI-G/). If you want to cite this, please cite [MoMIG](https://github.com/MoMI-G/MoMI-G/).
+
+## Fixtures
+
+The fixture data is derived from [CircosJS](https://github.com/nicgirault/circosJS).
 
 ## License
 

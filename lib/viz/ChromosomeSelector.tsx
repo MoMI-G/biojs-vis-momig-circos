@@ -1,7 +1,6 @@
 import * as React from 'react';
 import * as ReactDom from 'react-dom';
 import Select from 'react-select';
-import 'react-select.css';
 
 export interface SelectorProps {
   allChroms: any[];
@@ -17,16 +16,18 @@ class Selector extends React.Component<SelectorProps, SelectorState> {
     super(props);
     this.handleSelectChange = this.handleSelectChange.bind(this);
     this.state = {
-      value: props.allChroms ? props.allChroms.map(a => a.label) : []
+      value: props.allChroms ? props.allChroms.map(a => {
+        return { label: a.label, value: a.label };
+      }) : []
     };
   }
 
   componentWillReceiveProps(props: SelectorProps) {}
 
-  handleSelectChange(value: any) {
+  handleSelectChange(value: {value: string, label: string}[]) {
     // console.log("You've selected:", value);
-    this.setState({ value: value.split(',') });
-    this.props.selectChrom(value.split(','));
+    this.setState({ value });
+    this.props.selectChrom(value.map(a => a.label));
   }
 
   render() {

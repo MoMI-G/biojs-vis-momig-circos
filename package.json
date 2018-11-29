@@ -21,7 +21,7 @@
     "build": "mkdirp build && browserify -p [ tsify ] -r ./:biojs-vis-momig-circos -o build/circos.js",
     "build-browser": "npm run build",
     "prepublish": "npm run build",
-    "watch": "watchify -p [ tsify ] -r ./:biojs-vis-momig-circos -v -o build/circos.js",
+    "watch": "watchify -pw [ tsify ] -r ./:biojs-vis-momig-circos -v -o build/circos.js ",
     "w": "prunner \"npm run sniper\" \"npm run watch\"",
     "sniper": "sniper ."
   },
@@ -39,15 +39,21 @@
   "devDependencies": {
     "browserify": "6.x",
     "mkdirp": "^0.5.0",
+    "parcelify": "^2.2.0",
     "prunner": "1.x",
     "sniper": "0.x",
     "tsify": "^4.0.1",
     "typescript": "^3.1.6",
     "watchify": "^1.0.6"
   },
+  "style" : "lib/viz/*.css",
   "sniper": {
     "js": [
       "/build/circos.js"
+    ],
+    "css": [
+      "/lib/css/sample.css",
+      "/lib/css/bootstrap.min.css"
     ],
     "snippets": [
       "examples"
