@@ -26,7 +26,7 @@ All contributions are welcome.
 
 ## Support
 
-If you have any problem or suggestion please open an issue [here](https://github.com/6br/biojs-vis-momig-circos/issues).
+If you have any problem or suggestion please open an issue [here](https://github.com/MoMI-G/biojs-vis-momig-circos/issues).
 
 ## Citation
 

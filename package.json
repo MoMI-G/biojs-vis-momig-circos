@@ -2,17 +2,17 @@
   "name": "biojs-vis-momig-circos",
   "description": "Circos plot for genomics based on MoMIG toolkit",
   "version": "0.1.0",
-  "homepage": "https://github.com/6br/biojs-vis-momig-circos",
+  "homepage": "https://github.com/MoMI-G/biojs-vis-momig-circos",
   "author": {
-    "name": "6br",
+    "name": "MoMIG",
     "email": ""
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/6br/biojs-vis-momig-circos.git"
+    "url": "git://github.com/MoMI-G/biojs-vis-momig-circos.git"
   },
   "bugs": {
-    "url": "https://github.com/6br/biojs-vis-momig-circos/issues"
+    "url": "https://github.com/MoMI-G/biojs-vis-momig-circos/issues"
   },
   "license": "MIT",
   "main": "lib/index.js",
