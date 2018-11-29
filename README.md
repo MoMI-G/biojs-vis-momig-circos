@@ -1,6 +1,7 @@
 # biojs-vis-momig-circos
 
 [![NPM version](http://img.shields.io/npm/v/biojs-vis-momig-circos.svg)](https://www.npmjs.org/package/biojs-vis-momig-circos) 
+[![Build Status](https://travis-ci.org/MoMI-G/biojs-vis-momig-circos.svg?branch=master)](https://travis-ci.org/MoMI-G/biojs-vis-momig-circos)
 
 > Circos plot with rotating for genomics based on MoMIG toolkit
 
