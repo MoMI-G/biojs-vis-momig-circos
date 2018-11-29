@@ -17,7 +17,7 @@
   "license": "MIT",
   "main": "lib/index.js",
   "scripts": {
-    "test": "echo 'Error: no test specified' && exit 1",
+    "test": "echo 'no test specified' && exit 0",
     "build": "mkdirp build && browserify -p [ tsify ] -r ./:biojs-vis-momig-circos -o build/circos.js",
     "build-browser": "npm run build",
     "prepublish": "npm run build",
