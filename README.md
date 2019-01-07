@@ -3,7 +3,7 @@
 [![NPM version](http://img.shields.io/npm/v/biojs-vis-momig-circos.svg)](https://www.npmjs.org/package/biojs-vis-momig-circos) 
 [![Build Status](https://travis-ci.org/MoMI-G/biojs-vis-momig-circos.svg?branch=master)](https://travis-ci.org/MoMI-G/biojs-vis-momig-circos)
 
-> Circos plot with rotating for genomics based on MoMIG toolkit
+> Circos plot with rotating for genomics based on MoMI-G toolkit
 
 <img src="./momig-circos.gif" />
 
@@ -30,7 +30,7 @@ If you have any problem or suggestion please open an issue [here](https://github
 
 ## Citation
 
-This module is part of [MoMIG](https://github.com/MoMI-G/MoMI-G/). If you want to cite this, please cite [MoMIG](https://github.com/MoMI-G/MoMI-G/).
+This module is part of [MoMI-G](https://github.com/MoMI-G/MoMI-G/). If you want to cite this, please cite [MoMI-G](https://github.com/MoMI-G/MoMI-G/).
 
 ## Fixtures
 
