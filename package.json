@@ -44,7 +44,7 @@
     "sniper": "0.x",
     "tsify": "^4.0.1",
     "typescript": "^3.1.6",
-    "watchify": "^1.0.6"
+    "watchify": "^4.0.0"
   },
   "style": "lib/viz/*.css",
   "sniper": {
